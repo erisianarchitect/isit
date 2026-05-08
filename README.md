@@ -1,0 +1,1 @@
+`isit` is a compile time checking library. It has a multitude of functions for performing compile time checks to ensure that your program will work as expected before you ever run it.
