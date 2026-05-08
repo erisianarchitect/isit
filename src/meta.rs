@@ -1,7 +1,12 @@
 
+#[allow(dead_code)]
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash)]
-pub(crate) enum ImpossibleZst {}
+pub(crate) enum UninhabitedZst {}
 
+/// A type that occupies niches for 255 slots, and then has a value slot for the 256th discriminant.
+/// 
+/// This can be used to check if a type is an uninhabited ZST.
+#[allow(dead_code)]
 pub(crate) enum Niche255<T> {
     T(T), Nx01, Nx02, Nx03, Nx04, Nx05, Nx06, Nx07, Nx08, Nx09, Nx0a, Nx0b, Nx0c, Nx0d, Nx0e, Nx0f,
     Nx10, Nx11, Nx12, Nx13, Nx14, Nx15, Nx16, Nx17, Nx18, Nx19, Nx1a, Nx1b, Nx1c, Nx1d, Nx1e, Nx1f,
