@@ -4,4 +4,5 @@ description = "Library for compile time assertions and conditional checks."
 authors = ["ErisianArchitect <https://github.com/ErisianArchitect>"]
 version = "0.1.0"
 edition = "2024"
+documentation = "https://docs.rs/isit/"
 license = "MIT"
