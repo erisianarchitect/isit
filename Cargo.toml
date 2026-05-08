@@ -2,7 +2,8 @@
 name = "isit"
 description = "Library for compile time assertions and conditional checks."
 authors = ["ErisianArchitect <https://github.com/ErisianArchitect>"]
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 documentation = "https://docs.rs/isit/"
+repository = "https://github.com/ErisianArchitect/isit"
 license = "MIT"
